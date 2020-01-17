@@ -1,7 +1,23 @@
 # flask-restful-boilerplate
 A minimal boilerplate for the RESTful services using Flask, SQLAlchemy and Flask-RestPlus (for the swagger-UI) [for personal use]
 
-Directory Structure is as follows:
+## What it includes?
+- capabilities of establishhing connection to any database using `SQLAlchemy`.
+- a `service logger` for logging all the events, warnings, errors, etc.
+- a placeholder for declaring all your `constants`.
+- a placeholder for all your declared `database models`.
+- entire codeset is config-driven.
+- hosting of `swagger-UI` for your RESTful API's documentation.
+- hosting `multiple namespaces` in the routes.
+- a `custom response generator` for the payloads.
+
+## Setting up:
+- install all the requirements from `requirements.txt`
+- make necessary changes in `config.ini`
+- create a directory called **logs** in the current working directory. This is where all your log fiels will be stored.
+- run the program using `run.py`
+
+## Directory structure:
 ```tree
 ├── src
 │   ├── core
