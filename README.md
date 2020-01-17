@@ -15,7 +15,12 @@ A minimal boilerplate for the RESTful services using Flask, SQLAlchemy and Flask
 - install all the requirements from `requirements.txt`
 - make necessary changes in `config.ini`
 - create a directory called **logs** in the current working directory. This is where all your log fiels will be stored.
-- run the program using `run.py`
+
+## Running the program:
+- after having setup everything above, run the program using 
+```python
+python run.py
+```
 
 ## Directory structure:
 ```tree
