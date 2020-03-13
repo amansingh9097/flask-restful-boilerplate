@@ -1,5 +1,7 @@
 # flask-restful-boilerplate
-A minimal boilerplate for the RESTful services using Flask, SQLAlchemy and Flask-RestPlus (for the swagger-UI) [for personal use]
+A minimal boilerplate for creating RESTful services using Flask, SQLAlchemy and Flask-RestPlus. This boilerplate has swagger-UI) [for personal use]
+
+<img src="swagger-ui.PNG">
 
 ## What it includes?
 - capabilities of establishhing connection to any database using `SQLAlchemy`.
@@ -12,15 +14,14 @@ A minimal boilerplate for the RESTful services using Flask, SQLAlchemy and Flask
 - a `custom response generator` for the payloads.
 
 ## Setting up:
-- install all the requirements from `requirements.txt`
+- install all the requirements from `requirements.txt`<br>
+```pip install -r requirements.txt```
 - make necessary changes in `config.ini`
+  - add `host` address (default="127.0.0.1")
+  - add `port` address (default=5000)
+  - set a `name` for the flask restful service (default="flask-minimal-boilerplate")
+  - add the `database url` (default="postgresql://scott:tiger@localhost/sample_db")
 - create a directory called **logs** in the current working directory. This is where all your log fiels will be stored.
-
-## Running the program:
-- after having setup everything above, run the program using 
-```python
-python run.py
-```
 
 ## Directory structure:
 ```tree
@@ -45,4 +46,10 @@ python run.py
 ├── config.ini
 ├── requirements.txt
 ├── run.py
+```
+
+## Running the program:
+- after having setup everything above, run the program using 
+```python
+python run.py
 ```
