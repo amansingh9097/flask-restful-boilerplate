@@ -3,7 +3,7 @@ click==6.7
 configobj==5.0.6
 Flask==1.0.1
 Flask-API==1.0
-Flask-Cors==3.0.4
+Flask-Cors==3.0.9
 flask-restplus==0.10.1
 Flask-SQLAlchemy>=2.3.2
 itsdangerous==0.24
